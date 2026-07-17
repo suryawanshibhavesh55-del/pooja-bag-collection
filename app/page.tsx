@@ -85,7 +85,7 @@ export default function HomePage() {
           ✨ FREE SHIPPING ON ALL PREPAID ORDERS ✨
         </div>
         <div className="hidden sm:flex items-center gap-3 w-24 justify-end text-white/80">
-          <a href="https://instagram.com" className="hover:text-gold-accent transition-colors"><FaInstagram className="w-3.5 h-3.5" /></a>
+          <a href="https://instagram.com/pooja_bag_collection" target="_blank" rel="noopener noreferrer" className="hover:text-gold-accent transition-colors"><FaInstagram className="w-3.5 h-3.5" /></a>
           <a href="https://wa.me/919828752253" className="hover:text-gold-accent transition-colors"><FaWhatsapp className="w-3.5 h-3.5" /></a>
         </div>
       </div>
@@ -756,6 +756,16 @@ export default function HomePage() {
                       <p className="text-xs text-charcoal/80 font-sans">Open 24 Hours</p>
                     </div>
                   </div>
+
+                  <div className="flex gap-3">
+                    <FaInstagram className="w-5 h-5 text-gold-accent shrink-0 mt-0.5" />
+                    <div>
+                      <h4 className="font-serif text-xs font-semibold uppercase tracking-wider text-maroon-primary mb-1">Instagram</h4>
+                      <a href="https://instagram.com/pooja_bag_collection" target="_blank" rel="noopener noreferrer" className="text-xs text-charcoal/80 hover:text-maroon-primary transition-colors font-sans block font-medium">
+                        @pooja_bag_collection
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -769,6 +779,16 @@ export default function HomePage() {
                 >
                   <MessageSquare className="w-4 h-4 fill-current" />
                   Chat on WhatsApp
+                </a>
+
+                <a
+                  href="https://instagram.com/pooja_bag_collection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 py-3 bg-maroon-primary hover:bg-maroon-light text-white border border-gold-accent/20 rounded-xl text-xs uppercase tracking-wider font-semibold font-sans transition-colors cursor-pointer"
+                >
+                  <FaInstagram className="w-4 h-4 text-gold-accent" />
+                  Follow on Instagram
                 </a>
                 
                 <a
@@ -898,7 +918,7 @@ export default function HomePage() {
               "closes": "23:59"
             },
             "sameAs": [
-              "https://instagram.com"
+              "https://instagram.com/pooja_bag_collection"
             ],
             "priceRange": "$$"
           })

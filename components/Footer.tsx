@@ -43,7 +43,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-3 mt-2">
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/pooja_bag_collection"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center text-white hover:text-gold-accent hover:border-gold-accent transition-colors duration-300"
