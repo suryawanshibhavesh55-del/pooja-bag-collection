@@ -46,19 +46,21 @@ export default function Navbar() {
 
   const handleScrollTo = (targetId: string) => {
     setIsOpen(false);
-    const element = document.getElementById(targetId);
-    if (element) {
-      const offset = 80; // height of navbar
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = element.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
-      const offsetPosition = elementPosition - offset;
+    
+    // Defer the scroll calculation slightly to let the mobile menu close and rendering settle
+    setTimeout(() => {
+      const element = document.getElementById(targetId);
+      if (element) {
+        const offset = 80; // height of navbar
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - offset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-    }
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 150);
   };
 
   return (
