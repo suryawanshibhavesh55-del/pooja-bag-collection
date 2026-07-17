@@ -26,6 +26,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import OrderModal from "@/components/OrderModal";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export default function HomePage() {
   // Catalog filtering states
@@ -117,7 +118,7 @@ export default function HomePage() {
               Premium handcrafted custom bags designed with precision for every occasion. Experience the touch of luxurious embroidery, personalized detailing, and durable craftsmanship.
             </p>
             
-            <div className="pt-4 flex flex-wrap gap-4 items-center">
+            <div className="pt-4 flex flex-wrap gap-4 items-center" suppressHydrationWarning>
               <button
                 onClick={() => setSelectedOrderProduct(heroFeaturedBag)}
                 className="inline-flex items-center gap-2 px-8 py-3.5 bg-maroon-primary hover:bg-maroon-light text-white font-sans text-xs tracking-widest font-semibold uppercase rounded-full shadow-lg transition-luxury hover:scale-105 cursor-pointer"
@@ -627,6 +628,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ReviewsSection />
 
       {/* About Us Section */}
       <section id="about" className="py-24 px-4 sm:px-6 lg:px-8 bg-cream-card relative overflow-hidden">
