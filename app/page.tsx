@@ -70,8 +70,8 @@ export default function HomePage() {
   const categories = ["All", "Personalized Totes", "Floral Embroidery", "Jeweled Handles", "Luxury Handbags"];
 
   // Featured bags for hero / callouts
-  const heroFeaturedBag = products[2]; // Outstay Jeweled Canvas Handbag (WhatsApp Image 2026-07-17 at 4.51.17 PM.jpeg)
-  const promoFeaturedBag = products[0]; // Aasha Custom Embroidered Tote (WhatsApp Image 2026-07-17 at 4.51.16 PM.jpeg)
+  const heroFeaturedBag = products[2]; // Outstay Jeweled Canvas Handbag (whatsapp-image-2026-07-17-at-4.51.17-pm.jpeg)
+  const promoFeaturedBag = products[0]; // Aasha Custom Embroidered Tote (whatsapp-image-2026-07-17-at-4.51.16-pm.jpeg)
 
   // Masonry gallery photos (using elements from assets)
   const galleryImages = products.slice(10, 22).map(p => p.image);

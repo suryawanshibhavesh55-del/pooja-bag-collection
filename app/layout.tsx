@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/assets/WhatsApp Image 2026-07-17 at 4.53.06 PM.jpeg",
+        url: "/assets/whatsapp-image-2026-07-17-at-4.53.06-pm.jpeg",
         width: 800,
         height: 600,
         alt: "Pooja Bag Collection - Premium Handbag Showcase",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "POOJA BAG COLLECTION | Premium Luxury Handbags",
     description: "Explore POOJA BAG COLLECTION, Mumbai's premier destination for premium handcrafted handbags, luxury totes, elegant sling bags, and stylish clutches.",
-    images: ["/assets/WhatsApp Image 2026-07-17 at 4.53.06 PM.jpeg"],
+    images: ["/assets/whatsapp-image-2026-07-17-at-4.53.06-pm.jpeg"],
   },
   robots: {
     index: true,
